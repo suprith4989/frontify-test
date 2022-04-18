@@ -8,35 +8,77 @@ This project or repository is solely created as an assignment for an organisatio
 Suprith Gangawar <suprith_4989@yahoo.com>
 
 ## Pre Requisites
+node
+cypress
+Visual Stusio Code (any other editor for that matter)
 
 ## Important Test Cases
 ### Sorting
 Verify if the sorting functionality works as expected
 
 Steps to Perform: </br>
+1. Visit the URL https://demo.frontify.com/d/FkBpT1nT1tqo
+2. Click on Media Library tab/page
+3. Click on 'Sort Collections by Newest' or the Sort drop down
+4. Select any other option from the drop down
+5. Observe for changes in the UI
+
+
 Expected Behavior: </br>
+1. Listed items or collections should be sorted according to the selection from drop down
+
 Current Behavior: </br>
+Items are sorted according to how new or old they are, or alphabetically
 
 ### Filtering
 Verify if the filtering functionality works as expected
 
 Steps to Perform: </br>
+1. Visit the URL https://demo.frontify.com/d/FkBpT1nT1tqo
+2. Click on Media Library tab/page
+3. Click on the Filter drop down
+4. Select Images
+5. Observe the behavior and listed items
+6. Clear the filter
+7. Select Movies
+8. Observe the behavior and listed items
+
 Expected Behavior: </br>
+Only Images should be displayed when checked the Images check box
+Only Movies should be displayed when checked the Movies check box
+
 Current Behavior: </br>
+Same as Expected Behavior
 
 ### Search
 Verify searching an item and observe the behavior
 
 Steps to Perform: </br>
+1. Visit the URL https://demo.frontify.com/d/FkBpT1nT1tqo
+2. Click on Media Library tab/page
+3. Enter coconut in the search box
+
 Expected Behavior: </br>
+All the coconut images should be displayed in the output
+
 Current Behavior: </br>
+Same as Expected Behavior
 
 ### Details of the Listings
 Verify clicking any listed item and validating its details
 
 Steps to Perform: </br>
+1. Visit the URL https://demo.frontify.com/d/FkBpT1nT1tqo
+2. Click on Media Library tab/page
+3. Click on any listed item and not a collection
+4. Validate things displayed in the right column/pane
+
 Expected Behavior: </br>
+Information related to the item opened should be displayed in right pane
+It should be divided into 2 columns: Basic and Metadata
+
 Current Behavior: </br>
+Same as Expected Behavior
 
 ## Installation and Usage
 1. Clone the repo using command: 'git clone {repo link}'
