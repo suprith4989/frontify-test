@@ -8,9 +8,9 @@ This project or repository is solely created as an assignment for an organisatio
 Suprith Gangawar <suprith_4989@yahoo.com>
 
 ## Pre Requisites
-node
-cypress
-Visual Stusio Code (any other editor for that matter)
+node </br>
+cypress </br>
+Visual Stusio Code (any other editor for that matter) </br>
 
 ## Important Test Cases
 ### Sorting
