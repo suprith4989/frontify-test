@@ -1,0 +1,22 @@
+{
+  "name": "frontify-test",
+  "version": "1.0.0",
+  "description": "Media Library page test case automation in Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suprith4989/frontify-test.git"
+  },
+  "author": "Suprith Gangawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suprith4989/frontify-test/issues"
+  },
+  "homepage": "https://github.com/suprith4989/frontify-test#readme",
+  "devDependencies": {
+    "cypress": "^9.5.4"
+  }
+}
